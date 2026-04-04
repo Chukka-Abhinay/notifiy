@@ -1,0 +1,11 @@
+name : CI 
+
+on: [push]
+
+jobs:
+  build :
+   runs-on : ubuntu-latest
+   steps: 
+    -user: actions/checkout@v4
+    -run: echo "Hello world"
+    
