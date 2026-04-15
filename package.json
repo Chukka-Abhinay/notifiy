@@ -2,12 +2,12 @@
   "name": "notifiy",
   "version": "1.0.0",
   "description": "notifications for dev's",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"no test\"",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
